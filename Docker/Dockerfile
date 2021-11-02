@@ -1,6 +1,6 @@
 FROM openjdk
 WORKDIR /app
-COPY ../*.class .
+COPY Simple.class .
 CMD ["java","Simple"]
 
 
